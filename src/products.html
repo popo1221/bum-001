@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>首页 - 公司简介</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="always" name="referrer">
+<meta name="keywords" content="" />
+<link rel="shortcut icon" href="images/favicon.ico">
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/google-fonts.css" rel='stylesheet' type='text/css'>
+<!--Custom-Theme-files-->
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/chocolat.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"> </script>
+<!--/script-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="./html2canvas.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+<!--gallery-->
+<script src="js/jquery.chocolat.js"></script>
+<!--light-box-files -->
+<script type="text/javascript">
+	$(function() {
+		$('#example1 a').Chocolat();
+	});
+</script>
+<script type="text/javascript">
+	$(function() {
+		$('#portfolio a').Chocolat();
+	});
+</script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+	// You can also use "$(window).load(function() {"
+	$(function () {
+		// Slideshow 4
+		$("#slider4").responsiveSlides({
+			auto: true,
+			pager: true,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+				// $('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+				// $('.events').append("<li>after event fired.</li>");
+			}
+		});
+
+	});
+</script>
+</head>
+
+<body>
+	<!--start-home-->
+	<div id="home" class="header">
+		<div class="header-top">
+			<div class="container">
+				<span class="menu"></span>
+				<div class="top-menu">
+					<ul class="cl-effect-16">
+						<li><a href="index.html">首页</a></li> 
+						<li><a class="active" href="javascript:void(0);">产品介绍</a></li>
+						<li><a href="proxy.html">产品代理 </a></li>
+						<li><a href="javascript:void(0);">技术支持 </a></li>
+						<li><a href="partner.html">合作伙伴</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="header-middle">
+				<div class="container">
+					<div class="logo">
+						<a href="index.html"><h1><img src="images/logo.png" alt="" srcset=""></h1></a>
+					</div>
+					<!-- <div class="header-top-right">
+						<form>
+							<input type="text" placeholder="Search" required="">
+							<input type="submit" value="">
+							<div class="clearfix"> </div>
+						</form>
+					</div> -->
+		 			<div class="clearfix"> </div>
+	 </div>
+	 </div>
+	</div>
+	<!-- /end of header -->
+
+	<!-- banner-container -->
+	<!-- <div class="banner">
+		<div class="container">
+			<div  class="callbacks_container">
+				<ul class="rslides" id="slider4">
+					<li>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div> -->
+	<!-- end of banner-container -->
+
+<!--//welcome-->
+<div class="news" id="news2">
+		<div class="container">
+			<!-- <h3 class="tittle">Our News</h3> -->
+			<div class="news-top">
+				<div class="col-md-12 col-xs-12 news-grid">
+					<!-- <a href="single.html"><img src="images/n2.jpg" class="img-responsive" alt="/"> </a> -->
+					<a class="news" href="javascript:;"> 产品介绍 </a>
+					<p>基于PC的智能集成仿真系统（PC-based Smart Integration Simulation System，以下简称PSIS）主要提供基于桌面环境下的软件应用接口集成方案，同时支持系统研发其它阶段的集成（软硬件、系统集成等）。</p>
+					<h4>PSIS的主要工程研制目标如下</h4>
+					<ul>
+						<li>
+							提供系统软件应用集成环境，支持系统的接口集成活动
+							<ul>
+								<li>软件应用集成、支持软硬件集成测试</li>
+								<li>系统接口集成测试</li>		
+								<li>系统和其他系统接口测试</li>
+							</ul>
+						</li>
+						<li>
+							在基于桌面环境下，开展系统测试和集成工作
+							<ul>
+								<li>PSIS提供系统集成和测试的仿真环境，可以在系统研发早期（软件开发阶段），进行部分系统层面接口集成和测试工作。</li>
+								<li>PSIS集成环境的统一性，保证了软件测试脚本的系统层面的复用</li>
+							</ul>
+						</li>
+						<li>
+							Server/Client 开放性架构，支持可扩展性和匹配性
+							<ul>
+								<li>PSIS提供基于Server/Client通讯机制基因的分布式网络架构；</li>
+								<li>通过通用接口模块来完成对不同通讯协议的兼容；</li>
+								<li>开放的架构和通用应用程序接口（API）支持系统的可扩展性</li>
+							</ul>
+						</li>
+						<li>
+							提供智能编码/解码功能
+							<ul>
+								<li>PSIS提供ARINC661协议数据的编码和智能解码功能；</li>
+								<li>提供不同协议数据格式的编码和解码、格式间的简便转换；</li>
+								<li>易于操作的编码和解码方法和友好的数据呈现方式</li>
+							</ul>
+						</li>
+						<li>
+							提供总线监控、解析功能
+							<p>PSIS提供支持的协议总线数据的实时监控、捕获和解析功能</p>
+						</li>
+						<li>
+							提供系统调试环境
+							<ul>
+								<li>PSIS提供系统级基本调试手段和功能，如暂停、恢复、停止等。</li>
+								<li>部分软件应用级别调试，如断点设置、单步运行等</li>
+							</ul>
+						</li>
+						<li>
+							用户界面简洁、友好
+							<p>PSIS提供简洁、友好的用户界面。采用主流界面设计风格和技术，降低由于界面风格的差异带来的额外使用成本。</p>
+						</li>
+						<li>
+							提供培训环境
+							<p>PSIS提供基本的用户使用手册以外，还提供工具培训模块功能，提高培训有效性、降低培训成本等。</p>
+						</li>
+						<li>
+							PSIS作为航电产品研发集成环境平台，主要从下面几个方面满足性能要求
+							<ul>
+								<li>
+									数据完整性
+									<p>PSIS用来仿真的相关数据，以及数据传输的完整性要从设计的角度满足相关开发系统的要求。</p>
+								</li>
+								<li>
+									数据可用性
+									<p>PSIS用来仿真的相关数据，以及数据传输的可用性要从设计的角度满足相关开发系统的的要求。</p>
+								</li>
+								<li>
+									数据实时性
+									<p>PSIS基于PC的开发性架构，服务器端通过采用虚拟实时操作系统或者多缓存等技术手段保证计算端的实时性；客户端采用虚拟实时操作系统来保证参与者的实时性；通过采用I/O网关应用模块来实现和真实硬件（LRU）和真实传输媒介的集成来保证传输的实时性。</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+	<!--/footer-->
+	<div id="footer" class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-4 footer-grid">
+					<h4>客服电话</h4>
+					<ul class="bottom">
+						<li>(086) 186-1623-5720</li>
+						<!-- <li>Available 24/7</li> -->
+					</ul>
+				</div>
+				<div class="col-md-4 footer-grid">
+						<h4>联系我们</h4>
+						<ul class="bottom">
+							<!-- <li><i class="glyphicon glyphicon-home"></i>Available 24/7 </li> -->
+							<li><i class="glyphicon glyphicon-envelope"></i><a href="mailto:min@avisinfotech.com">min@avisinfotech.com</a></li>
+						</ul>
+				</div>
+			<div class="col-md-4 footer-grid">
+				<h4>公司地址</h4>
+				<ul class="bottom">
+					<li><i class="glyphicon glyphicon-map-marker"></i>上海市 </li>
+					<!-- <li><i class="glyphicon glyphicon-earphone"></i>phone: (888) 123-456-7899 </li> -->
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	</div>
+	<div class="copy">
+			<p>版权所有 &copy; 2017 上海如鸢电子科技有限公司 <a target="_blank" </p>
+	</div>
+	<!--//footer-->
+	<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
+</html>

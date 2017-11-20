@@ -228,7 +228,7 @@ nav a:focus {
     background:#003366;
 }
 .banner{
-background: url(../images/bg-air.jpg) no-repeat center top;
+background: url(../images/bg-large.jpg) no-repeat center top;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -424,7 +424,7 @@ background: url(../images/bg-air.jpg) no-repeat center top;
 }
 .banner-info h3 {
     font-size: 3.4em;
-    color: #fff;
+    color: #003366;
     text-transform: uppercase;
 	line-height:1.3em;
 }
